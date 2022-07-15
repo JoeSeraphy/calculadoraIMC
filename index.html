@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calcule o imc</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>IMC</h1>
+
+      <div class="text-1">
+        <p>
+          IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela
+          <br />
+          Organização Mundial de Saúde para calcular o peso ideal de cada
+          pessoa.
+        </p>
+
+        <p>
+          O índice é calculado da seguinte maneira: divide-se o peso do paciente
+          pela <br />
+          sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal
+          <br />
+          quando o resultado do IMC está entre 18,5 e 24,9.
+        </p>
+
+        <p>
+          Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo
+          <br />
+          e compare com os índices da tabela. Importante: siga os exemplos e use
+          <br />
+          pontos como separadores.
+        </p>
+      </div>
+    </div>
+
+    <div class="container2">
+      <div class="box">
+        <form action="">
+          <h2>Calcule o seu IMC</h2>
+          <p>
+            Peso (kg)<br />
+            <input class="kg" type="number" id="peso" />
+          </p>
+          <p>
+            Altura (cm)<br />
+            <input class="alt" type="number" id="alt" />
+          </p>
+          <p>
+            <submit onclick="calculate()">Calcular</submit>
+          </p>
+          <span id="resultado"></span>
+        </form>
+      </div>
+      <!--
+        <table>
+            <caption>VEJA A INTERPRETAÇÃO DO IMC</caption>
+         
+            <thead>
+                <tr>
+                    <th>IMC</th>
+                    <th>CLASSIFICAÇÃO</th>
+                    <th>OBESIDADE(grau)</th>
+                <tr>
+                    <td><center>MENOR QUE 18,5</center></td>
+                    <td><center>MAGREZA</center></td>
+                    <td><center>0</center></td>
+                </tr>
+                <tr>
+                    <td><center>ENTRE 18,5 E 24,9</center></td>
+                    <td><center>NORMAL</center></td>
+                    <td><center>0</center></td>
+                </tr>
+                <tr>
+                    <td><center>ENTRE 25,0 E 29,9</center></td>
+                    <td><center>SOBREPESO</center></td>
+                    <td><center>I</center></td>
+                </tr>
+                <tr>
+                    <td><center>ENTRE 30,0 E 39,9</center></td>
+                    <td><center>OBESIDADE</center></td>
+                    <td><center>II</center></td>
+                </tr>
+            </thead>
+        </table> -->
+    </div>
+    <footer class="fter">By Joelson Silva</footer>
+    <script src="imc.js"></script>
+  </body>
+</html>

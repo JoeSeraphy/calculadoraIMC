@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background: url(imagens/2.jpg) no-repeat;
+  background-position-y: 5%;
+  background-position-x: 40%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 5rem;
+  border-radius: 1rem 1rem 0rem 0;
+  display: grid;
+  justify-content: center;
+  width: 70rem;
+  height: 35rem;
+  background: #2b251f;
+  opacity: 90%;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 4rem;
+  margin-bottom: -1rem;
+}
+
+.text-1 p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+  padding: 1rem;
+}
+
+.container2 {
+  margin-bottom: 5rem;
+  border-radius: 0 0 1rem 1rem;
+  display: grid;
+  width: 70rem;
+  height: 45rem;
+  background: #fff900;
+  opacity: 90%;
+}
+
+.box {
+  margin-top: -2rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.box h2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.box p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding-bottom: 1rem;
+}
+
+.box input {
+  border: 1px solid #2b251f;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  width: 100%;
+  outline: none;
+}
+
+submit {
+  display: grid;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+  background: #216b8a;
+  border: 1px;
+  border-radius: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+submit:hover {
+  border: 1px;
+  background: #3c92ad;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+table {
+  border-top: 1px solid #2b251f;
+  width: 100%;
+  justify-content: center;
+
+  background: #ffff;
+}
+
+caption {
+  border-top: 1px solid #2b251f;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 0.5rem;
+  background: #ffff;
+}
+
+tr {
+  font-size: 1.2rem;
+}
+
+th {
+  border-bottom: 1px solid #2b251f;
+  border-right: 1px solid #2b251f;
+}
+
+td {
+  border-bottom: 1px solid #2b251f;
+}
+.fter {
+  display: grid;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+  background: #2b251f;
+  width: 100%;
+  padding: 1rem;
+}
